@@ -8,20 +8,15 @@
 <body>
   <div class="container">
     <h1>Architecta Project Generator</h1>
-    
     <form id="generateForm">
       <label>Project Name:</label>
       <input type="text" id="project_name" required>
 
       <label>Language:</label>
-      <select id="language" required>
-        <option value="python">Python</option>
-      </select>
+      <select id="language" required></select>
 
       <label>Framework:</label>
-      <select id="framework" required>
-        <option value="flask">Flask</option>
-      </select>
+      <select id="framework" required></select>
 
       <label>Base Path:</label>
       <input type="text" id="base_path" value="." required>
@@ -31,7 +26,6 @@
 
     <div id="result"></div>
   </div>
-
   <script src="app.js"></script>
 </body>
 </html>
